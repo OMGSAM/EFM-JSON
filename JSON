@@ -1,0 +1,36 @@
+import json
+
+x = {
+      "CLASSE": "FORMATEUR",
+
+  "name": "John",
+  "age": 30,
+  "DATEMBAUCHE": 2010,
+    "DATENAISANCE": 1999,
+  "SALAIRE": "9000DH",
+  "HEURESUP": 40,
+  "TARIF": "70DH",
+  
+  {
+      "CLASSE": "AGENT",
+
+  "name": "GOMAA",
+  "age": 39,
+  "DATEMBAUCHE": 2010,
+    "DATENAISANCE": 1999,
+  "SALAIRE": "20 000 DH",
+  "HEURESUP": 40,
+  "PRIME": "1000DH",
+  
+    "CLASSE": "EMPLOYE",
+
+  "name": "JILALI",
+  "age": 20,
+  "DATEMBAUCHE": 2011,
+    "DATENAISANCE": 1989,
+  "SALAIRE": "50 000 DH",
+   
+  
+}
+
+print(json.dumps(x))
